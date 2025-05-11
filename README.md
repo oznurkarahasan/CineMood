@@ -1,6 +1,6 @@
 CineMood Project Report
 1. Project Overview
-CineMood is a web application where users can receive movie and TV series recommendations, track their viewing habits, and access personalized content suggestions. The platform is integrated with The Movie Database (TMDB) API to enrich the cinema experience by providing detailed information, ratings, and recommendations. CineMood caters to movie enthusiasts with features such as watchlists, favorites, and a test mode to determine user preferences.
+  CineMood is a web application where users can receive movie and TV series recommendations, track their viewing habits, and access personalized content suggestions. The platform is integrated with The Movie Database (TMDB) API to enrich the cinema experience by providing detailed information, ratings, and recommendations. CineMood caters to movie enthusiasts with features such as watchlists, favorites, and a test mode to determine user preferences.
 The application emphasizes user interaction through a responsive and visually appealing design. Interactive features like animated transitions and a modular interface enhance the user experience. Additionally, CineMood prioritizes security and offers a safe, enjoyable experience with secure authentication mechanisms and data protection practices.
 2. Technology Stack
 CineMood is developed using modern and reliable technologies, including:
