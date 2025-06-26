@@ -1,0 +1,140 @@
+[26-Apr-2025 20:14:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\Apache24\htdocs\CineMood\php\TMDB.php:58
+Stack trace:
+#0 C:\Apache24\htdocs\CineMood\php\TMDB.php(17): TMDB->makeRequest('https://api.the...')
+#1 C:\Apache24\htdocs\CineMood\php\get_recommendations.php(41): TMDB->searchMovies('comedy')
+#2 {main}
+  thrown in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 58
+[26-Apr-2025 20:14:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\Apache24\htdocs\CineMood\php\TMDB.php:58
+Stack trace:
+#0 C:\Apache24\htdocs\CineMood\php\TMDB.php(17): TMDB->makeRequest('https://api.the...')
+#1 C:\Apache24\htdocs\CineMood\php\get_recommendations.php(41): TMDB->searchMovies('comedy')
+#2 {main}
+  thrown in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 58
+[26-Apr-2025 20:14:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\Apache24\htdocs\CineMood\php\TMDB.php:58
+Stack trace:
+#0 C:\Apache24\htdocs\CineMood\php\TMDB.php(17): TMDB->makeRequest('https://api.the...')
+#1 C:\Apache24\htdocs\CineMood\php\get_recommendations.php(46): TMDB->searchMovies('drama')
+#2 {main}
+  thrown in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 58
+[26-Apr-2025 20:14:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\Apache24\htdocs\CineMood\php\TMDB.php:58
+Stack trace:
+#0 C:\Apache24\htdocs\CineMood\php\TMDB.php(17): TMDB->makeRequest('https://api.the...')
+#1 C:\Apache24\htdocs\CineMood\php\get_recommendations.php(41): TMDB->searchMovies('comedy')
+#2 {main}
+  thrown in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 58
+[26-Apr-2025 20:14:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\Apache24\htdocs\CineMood\php\TMDB.php:58
+Stack trace:
+#0 C:\Apache24\htdocs\CineMood\php\TMDB.php(17): TMDB->makeRequest('https://api.the...')
+#1 C:\Apache24\htdocs\CineMood\php\get_recommendations.php(46): TMDB->searchMovies('drama')
+#2 {main}
+  thrown in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 58
+[26-Apr-2025 20:14:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\Apache24\htdocs\CineMood\php\TMDB.php:58
+Stack trace:
+#0 C:\Apache24\htdocs\CineMood\php\TMDB.php(17): TMDB->makeRequest('https://api.the...')
+#1 C:\Apache24\htdocs\CineMood\php\get_recommendations.php(41): TMDB->searchMovies('comedy')
+#2 {main}
+  thrown in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 58
+[26-Apr-2025 20:20:58 UTC] TMDB API Request URL: https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&query=comedy&page=1
+[26-Apr-2025 20:20:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\Apache24\htdocs\CineMood\php\TMDB.php:61
+Stack trace:
+#0 C:\Apache24\htdocs\CineMood\php\TMDB.php(17): TMDB->makeRequest('https://api.the...')
+#1 C:\Apache24\htdocs\CineMood\php\get_recommendations.php(41): TMDB->searchMovies('comedy')
+#2 {main}
+  thrown in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 61
+[26-Apr-2025 20:21:00 UTC] TMDB API Request URL: https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&query=action&page=1
+[26-Apr-2025 20:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\Apache24\htdocs\CineMood\php\TMDB.php:61
+Stack trace:
+#0 C:\Apache24\htdocs\CineMood\php\TMDB.php(17): TMDB->makeRequest('https://api.the...')
+#1 C:\Apache24\htdocs\CineMood\php\get_recommendations.php(51): TMDB->searchMovies('action')
+#2 {main}
+  thrown in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 61
+[26-Apr-2025 20:24:30 UTC] TMDB API Request URL: https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&query=comedy&page=1
+[26-Apr-2025 20:24:30 UTC] TMDB API Error: Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&amp;query=comedy&amp;page=1): Failed to open stream: No such file or directory
+    [file] => C:\Apache24\htdocs\CineMood\php\TMDB.php
+    [line] => 70
+)
+
+[26-Apr-2025 20:24:38 UTC] TMDB API Request URL: https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&query=drama&page=1
+[26-Apr-2025 20:24:38 UTC] TMDB API Error: Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&amp;query=drama&amp;page=1): Failed to open stream: No such file or directory
+    [file] => C:\Apache24\htdocs\CineMood\php\TMDB.php
+    [line] => 70
+)
+
+[26-Apr-2025 20:28:03 UTC] TMDB API Request URL: https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&query=comedy&page=1
+[26-Apr-2025 20:28:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\Apache24\htdocs\CineMood\php\TMDB.php:62
+Stack trace:
+#0 C:\Apache24\htdocs\CineMood\php\TMDB.php(17): TMDB->makeRequest('https://api.the...')
+#1 C:\Apache24\htdocs\CineMood\php\get_recommendations.php(41): TMDB->searchMovies('comedy')
+#2 {main}
+  thrown in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 62
+[26-Apr-2025 20:30:09 UTC] TMDB API Request URL: https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&query=comedy&page=1
+[26-Apr-2025 20:30:09 UTC] TMDB API Error: Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&amp;query=comedy&amp;page=1): Failed to open stream: No such file or directory
+    [file] => C:\Apache24\htdocs\CineMood\php\TMDB.php
+    [line] => 77
+)
+
+[26-Apr-2025 20:37:53 UTC] TMDB API Request URL: https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&query=comedy&page=1
+[26-Apr-2025 20:37:53 UTC] TMDB API Error: Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&amp;query=comedy&amp;page=1): Failed to open stream: No such file or directory
+    [file] => C:\Apache24\htdocs\CineMood\php\TMDB.php
+    [line] => 80
+)
+
+[26-Apr-2025 20:40:50 UTC] TMDB API Request URL: https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&query=comedy&page=1
+[26-Apr-2025 20:40:50 UTC] TMDB API Error: Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&amp;query=comedy&amp;page=1): Failed to open stream: No such file or directory
+    [file] => C:\Apache24\htdocs\CineMood\php\TMDB.php
+    [line] => 84
+)
+
+[26-Apr-2025 20:42:22 UTC] TMDB API Request URL: https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&query=comedy&page=1
+[26-Apr-2025 20:42:22 UTC] TMDB API Error: Array
+(
+    [type] => 2
+    [message] => file_get_contents(https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&amp;query=comedy&amp;page=1): Failed to open stream: No such file or directory
+    [file] => C:\Apache24\htdocs\CineMood\php\TMDB.php
+    [line] => 84
+)
+
+[26-Apr-2025 20:42:22 UTC] PHP Warning:  fsockopen(): Unable to connect to ssl://api.themoviedb.org:443 (Unable to find the socket transport &quot;ssl&quot; - did you forget to enable it when you configured PHP?) in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 135
+[26-Apr-2025 20:46:20 UTC] TMDB API Request URL: https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&query=comedy&page=1
+[26-Apr-2025 20:46:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\Apache24\htdocs\CineMood\php\TMDB.php:62
+Stack trace:
+#0 C:\Apache24\htdocs\CineMood\php\TMDB.php(17): TMDB->makeRequest('https://api.the...')
+#1 C:\Apache24\htdocs\CineMood\php\get_recommendations.php(46): TMDB->searchMovies('comedy')
+#2 {main}
+  thrown in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 62
+[26-Apr-2025 21:29:07 UTC] TMDB API Request URL: https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&query=comedy&page=1
+[26-Apr-2025 21:29:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\Apache24\htdocs\CineMood\php\TMDB.php:62
+Stack trace:
+#0 C:\Apache24\htdocs\CineMood\php\TMDB.php(17): TMDB->makeRequest('https://api.the...')
+#1 C:\Apache24\htdocs\CineMood\php\get_recommendations.php(46): TMDB->searchMovies('comedy')
+#2 {main}
+  thrown in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 62
+[26-Apr-2025 21:29:09 UTC] TMDB API Request URL: https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&query=romance&page=1
+[26-Apr-2025 21:29:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\Apache24\htdocs\CineMood\php\TMDB.php:62
+Stack trace:
+#0 C:\Apache24\htdocs\CineMood\php\TMDB.php(17): TMDB->makeRequest('https://api.the...')
+#1 C:\Apache24\htdocs\CineMood\php\get_recommendations.php(61): TMDB->searchMovies('romance')
+#2 {main}
+  thrown in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 62
+[26-Apr-2025 21:30:31 UTC] TMDB API Request URL: https://api.themoviedb.org/3/search/movie?api_key=9387725b38e43961a93ec53a95a807b3&query=comedy&page=1
+[26-Apr-2025 21:30:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in C:\Apache24\htdocs\CineMood\php\TMDB.php:62
+Stack trace:
+#0 C:\Apache24\htdocs\CineMood\php\TMDB.php(17): TMDB->makeRequest('https://api.the...')
+#1 C:\Apache24\htdocs\CineMood\php\get_recommendations.php(46): TMDB->searchMovies('comedy')
+#2 {main}
+  thrown in C:\Apache24\htdocs\CineMood\php\TMDB.php on line 62
